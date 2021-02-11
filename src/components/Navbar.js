@@ -1,11 +1,12 @@
 import './Navbar.css'
 
+import Select from "./Select";
+
 // Function name matches file name
 const Navbar = () => {
     // return must have one parent element
     return (
-        <nav>
-        </nav>
+        <Select/>
     )
 }
 
